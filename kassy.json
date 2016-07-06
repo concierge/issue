@@ -1,0 +1,10 @@
+﻿{
+	"name": "issue",
+	"version": 1.0,
+	"startup": "issue.js",
+	"command": "issue",
+	"help": [
+		["{{commandPrefix}}issue \"<title>\" <debugLevel>", "Posts an issue to Github.", "Posts an issue to Github. DebugLevel can be basic, detail or full, defaults to basic if not specified."],
+		["{{commandPrefix}}issue \"<title>\" \"<description>\" <debugLevel>", "Posts an issue to Github with a description.", "Posts an issue to Github with a description. DebugLevel can be basic, detail or full, defaults to basic if not specified."]
+	]
+}
