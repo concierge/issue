@@ -11,7 +11,7 @@
 
 var githubAPI = 'https://api.github.com/repos/mrkno/Kassy/issues',
     token = 'MjBlNGU3YzM0Mjk5MDI2MzI1Y2M4MDUyODBjZGE4YzAwYmQ0YjYzZQ==',
-    request = require.safe('request'),
+    request = require('request'),
     fs = require('fs'),
     config = null;
 
